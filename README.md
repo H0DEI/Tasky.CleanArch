@@ -100,7 +100,7 @@ Swagger UI:
 
 ### Create Todo
 ```json
-POST /api/todos
+POST /api/TodoItems
 {
   "title": "Learn Clean Architecture",
   "description": "Understand layered patterns"
