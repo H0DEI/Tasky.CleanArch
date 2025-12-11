@@ -10,6 +10,20 @@ A professional Web API project built using **Clean Architecture**, **.NET 8**, *
 
 This repository is designed as a **portfolio-grade backend project** showing best practices used in modern .NET development.
 
+## 🧰 Tech Stack
+
+- .NET 8
+- C#
+- Clean Architecture
+- CQRS + MediatR
+- Entity Framework Core
+- SQL Server / LocalDB
+- FluentValidation (si lo agregas más adelante)
+- Swagger / OpenAPI
+- Dependency Injection
+- Repository Pattern
+- Domain-Driven Design (DDD) principles
+
 ---
 
 # 📂 Project Structure
@@ -70,15 +84,15 @@ Swagger UI:
 
 ---
 
-# 🔗 Endpoints Overview
+## 🔗 Endpoints Overview
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET    | /api/todos | Get all todo items |
-| GET    | /api/todos/{id} | Get todo by ID |
-| POST   | /api/todos | Create a new todo |
-| PUT    | /api/todos/{id} | Update existing todo |
-| DELETE | /api/todos/{id} | Delete todo |
+| Method | Endpoint               | Description             |
+|--------|------------------------|-------------------------|
+| GET    | /api/TodoItems         | Get all todo items      |
+| GET    | /api/TodoItems/{id}    | Get todo item by ID     |
+| POST   | /api/TodoItems         | Create a new todo item  |
+| PUT    | /api/TodoItems/{id}    | Update an existing item |
+| DELETE | /api/TodoItems/{id}    | Delete a todo item      |
 
 ---
 
@@ -106,6 +120,21 @@ This repository shows that you understand:
 - Professional backend development  
 
 Perfect for recruiters, interviews, and portfolio highlights.
+
+---
+
+## 🛠️ Roadmap
+
+- [x] Project structure with Clean Architecture
+- [x] CRUD operations for TodoItems
+- [x] CQRS with MediatR (Commands & Queries)
+- [x] Swagger documentation
+- [ ] Add FluentValidation for DTOs
+- [ ] Add pagination to GET /TodoItems
+- [ ] Implement unit tests (xUnit / NUnit)
+- [ ] Add authentication (JWT)
+- [ ] Deploy to Azure / Render
+- [ ] Add CI/CD pipeline with GitHub Actions
 
 ---
 
